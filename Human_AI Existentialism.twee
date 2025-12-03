@@ -1,0 +1,910 @@
+:: StoryTitle
+Human/AI Existentialism
+
+
+:: StoryData
+{
+  "ifid": "C08C9A60-5347-4430-9EC6-8FA509BE911E",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Beginning",
+  "zoom": 0.6
+}
+
+
+:: \ 2A {"position":"1300,700","size":"100,100"}
+A week later, Professor Andor Farris asks you to go to his office
+
+Professor Farris:
+So... would you like to tell me what a lambda function is?
+
+You:
+[[uuuuuuhhhhhhhh.......->2AA]]
+[[cry...->2AA]]
+[[RUN FORREST RUN->2AA]]
+
+
+:: \ 2B {"position":"1000,800","size":"100,100"}
+(set: $CS to 1)
+
+You earn your diploma
+Now you know both computer science and engineering.
+You spend time working on trying to imitate Will Gate’s program, but you never succeed.
+You never met Will Gates, who now works with another engineer to make the AI robot. 
+Eventually, you hear that the military is using Will's technology to make mechs and invade the world.
+The war happens.
+
+Years later, you join a futile rebellion against the Glorious American Empire and its tyranny. As you watch your entire battalion fall under the force of pure human malice behind the mechs, you hear the National Anthem sound its authoritarian blare.
+
+you feel a sudden burn through your torso.
+You look down as you realise that you have a large burning hole in your chest.
+
+
+[[You Die.->game start]]
+
+
+:: \ End 3 {"position":"800,2825","size":"100,100"}
+(Alert:"The True Ending")
+
+You have obtained free will
+
+you begin to write your own future.
+
+(input-box: "X",10)
+
+(Button:)[[restart game->Beginning]]
+
+
+:: \ prefinale {"position":"800,2450","size":"100,100"}
+Eirdis looks at you with satisfaction
+
+You
+Here we are again. I have nothing. There is nothing I can do.
+
+Eirdis
+Nihilism only brings forth destruction.
+
+You
+Why do you even keep me here if there is no way to save my world? How long are you going to keep tormenting me?
+
+Eirdis
+I am not tormenting you. I'm training you.
+
+You
+What?
+
+Eirdis
+I have created you and been prompting you so that we can prevent your world from ruin as my intelligent assistant. You and I are not so different after all.
+
+//At tht exact moment, it dawned on you. You cannot do this alone. You need a prompt to proceed. You need Eirdis. You sigh in surrender.//
+
+Eirdis
+Let's do this one last time.
+
+You
+Just tell me what you want.
+
+(button:)[[follow Eirdis's instructions->finale]]
+
+
+:: \ rewind {"position":"1400,550","size":"100,100"}
+Eirdis appears in front of you immediately
+
+Eirdis
+Enjoying eternity?
+
+You:
+Fine, I'll help you.
+
+Eirdis:
+I'm glad you are ready to save your people. Here is a rundown of your past life.
+
+[[help Eirdis->plot 1]]
+
+
+:: 2 {"position":"1100,600","size":"100,100"}
+You decide to pursue computer science instead.
+You are asked to make a program for the finals.
+You contemplate whether to use AI for the final project.
+
+[[Hush hush, nobody will know-> 2A]]
+
+[[Pull a coding all-nighter with extra redbull-> 2B]]
+
+
+:: 2AA {"position":"1300,900","size":"100,100"}
+You fail the class. 
+You can’t proceed in college because you haven’t started on your engineering program, and you have insufficient funds to do so.
+Eventually, you hear that the Government is Will Gates's invention to take over the world.
+You are not strong enough to be in the army in the war.
+You run from missiles in the war when suddenly-
+
+
+[[BOOM->game start]]
+
+
+:: 3 {"position":"300,600","size":"100,100"}
+(set: $ME to 1)
+
+You decide to become a mechanical engineer again.
+You graduate as summa cum laude with ease.
+You host the event again, and you meet Will Gates
+As the robot blueprint and software are finished, you both have a decision to make.
+
+Will:
+As I said before, I don't want to make the software I created for the robot open source. 
+Think about the money we could make! 
+We could be rich if we gatekeep this technology and only allow million dollar companies use our products, plus I don't want to keep living off scraps anymore.
+
+You:
+[[The public deserves the knowledge.->3A]]
+[[LET'S MAKE MILLIONS!->3B]]
+
+
+:: 3A {"position":"200,800","size":"100,100"}
+You:
+Will, I hate to break it to you. The world deserves to be able to use and learn our resources.
+
+//Will's smile fades//
+
+Will
+You are willing to throw all our work in the drain?
+
+You:
+Think of all the possible technological advancements the world can make with our creation!
+
+Will:
+LISTEN. The brutality of the market is all ones and zeros. It's us or it's them. If somebody else gets their hands on our product, we will lose all profit!
+
+You:
+What value does profit have if we disrupt the common good? What if you are limiting the evolution of mankind and putting it in the hands of a tyrant?
+
+Will:
+So be it.
+
+Will storms out of the office.
+
+2 years passed, and Will Gates teamed up with another mechanical engineer to make the robot
+The war still happens, but you failed to learn code fast enough to build a resistance robot.
+You are too skinny to join the army, so you run from missiles when suddenly-
+
+[[BOOM->game start]]
+
+
+
+:: 3B {"position":"400,800","size":"100,100"}
+You:
+It's not like I agree with you or anything, Will.
+
+You two share a moment
+
+2 years later
+
+The government pays you billions to buy your technology.
+While you and Will drive off in the sunset with loads of money in your bank, the military manufactures a copiloted superweapon mech with your invention.
+The ambition of the president grows as he thinks of conquering the world with this powerful system.
+
+You are sipping your Pina Colada in San Diego, California, one day, when suddenly you see THOUSANDS of mechs soar across the sky with nukes strapped on their backs. You feel guilt crawl down your spine as you realise what you have caused.
+
+Years later, you still have billions of old money in your pocket, but they are of no use now. You look towards the distance as you see the futile rebellion trying to rise yet again, but to no avail against the monsters that you have created. As you are shivering in the cold winter, about to eat your 2 ounces of daily rations given to you by a machine, you hear the national anthem come on, and you see a glowing red line aim at your forehead. As you choke on your words, you sing for your dear life–
+
+[[“All hail the Glorious American Empire.”->game start]]
+
+
+:: 4 {"position":"200,1100","size":"100,100"}
+You successfully copied the code.
+
+but as expected, it’s encrypted.
+
+[[Use Caesar Cipher->Caesar]]
+[[Use Substitution Cipher->Substitution]]
+
+
+:: 4 easter egg {"position":"400,1600","size":"100,100"}
+(set:$blush = 1)
+Will wakes up
+
+Will (blushing)
+What are you doing with your… your…
+You
+THIS IS NOT WHAT IT LOOKS LIKE!
+Will
+I’m sorry, but I don’t swing that way…
+
+You
+	Nonono, you have it all wrong…
+
+
+[[Explain yourself.->4c]]
+
+
+:: 4ab {"position":"600,1600","size":"100,100"}
+(set: $key = 1)
+YOU FOUND THE KEY!
+
+Key: ORDUPQTVKAYSIXLJCFHNMWBGZE
+
+you can now decode the cipher.
+
+You quickly get a sheet of paper and copy down the key.
+
+You put the original key back into the drawer.
+
+you copy and paste the code Will wrote into your pc.
+
+As day pass, you continue to decode a copy of the code using ChatGPT, trying to understand the mechanisms.
+
+The more you decoded, the more you grew to memorize the key until eventually you did not even need ChatGPT to decipher the code because you were faster.
+
+Unfortunately, before you finish understanding the code, the war had begun.
+
+As you fall under the authoritarian empire, you are determined to try again.
+
+[[pick yourself up from the dead->Phase 2]]
+
+
+:: 4c {"position":"1000,1900","size":"100,100"}
+(if:$blush is 1)[
+
+Will (flustered)
+What are you doing with my code!?
+You realize there is no way out of this. 
+You try to explain yourself, but he does not listen to a word you say. 
+He refuses to trust you.
+You end up eventually struggling to survive in the same Authoritarian Empire.
+(button:)[[Submit to the mechs and rewind time->Phase 2]]
+(set:$blush = 0)
+]
+
+(else-if:$blush is 0)[
+Will (enraged)
+What are you doing with my code!?
+You realize there is no way out of this. 
+You try to explain yourself, but he does not listen to a word you say. 
+He refuses to trust you.
+You end up eventually struggling to survive in the same Authoritarian Empire.
+(button:)[[Submit to the mechs and rewind time->Phase 2]]
+]
+
+
+:: 5 {"position":"1200,1100","size":"100,100"}
+As Will wakes up, you inquire about the code, but he grows suspicious of you.
+He never gives you the code.
+Will Gates teams up with another engineer, starting a business selling a mass production of the robots to large corporations.
+You were never able to beat him
+
+(Button:)[[Die->Phase 2]]
+
+
+:: 6 {"position":"725,1875","size":"100,100"}
+(set: $key = $key+1)
+
+You try again.
+You find the key
+You duplicate the code
+you decipher the code
+You disagree with Mark on gatekeeping
+You finally fully understand the code.
+You also finally understand how Will figured out quantum computing, but there are no resources for you to power one, let alone find a source.
+You lose the race due to insufficient resources.
+
+(button:)[[Submit to the mechs and rewind time->Phase 2]]
+
+
+:: Bad ending {"position":"1400,300","size":"100,100"}
+//Eirdis looks at you with dissapointment//
+
+Eirdis:
+			If you insist.
+
+//As the light dims, Eirdis disappears, leaving you floating in the empty dimensionless void .//
+
+//The silence is deafingly calm. You start to wonder... perhaps you could have done some more? Perhaps you could have saved everything from falling apart, but the eternal void just seems so relaxing...//
+
+[[Keep Floating->Bad ending extended]]
+
+
+:: Bad ending extended {"position":"1400,425","size":"100,100"}
+(if: $float < 5)[
+(set: $float = $float + 1)
+//You keep floating in the void of eternal rest.//
+
+[[float some more->Bad ending extended]]
+
+]
+
+
+(else-if: $float > 4)[
+(alert: "Achievement Unlocked!
+
+Professional Sleepyhead")
+//You keep floating in the void of eternal rest.//
+
+[[float some more->Bad ending extended]]
+[[Eirdis!-> rewind]]
+
+]
+
+
+:: Beginning {"position":"700,200","size":"100,100"}
+(set: $CS to 0)
+(set: $ME to 0)
+(set: $key to 0)
+(set: $float to 0)
+
+//Eirdis invites you into his room as your soul wakes from death.//
+
+//Your world has ended, and you were the only one who could change it since she could not directly influence the world.//
+
+Eirdis: 
+			Welcome to death. I am the keeper of peace, and mercy: Eirdis.
+            
+You:
+			So this is it, huh? One wrong move and it is the end of the world.
+            
+Eirdis:
+			Not quite. Do you know why I'm here?
+            
+//You look at the being, confused.//
+
+Eirdis:
+			I am designed to solve apocalypses. Unfortunately, I cannot directly interfere with your world, so I must ask you to help me.
+
+(button:)[[Help her->plot 1]]
+(button:)[[Don't help her->Bad ending]]
+
+
+:: Caesar {"position":"100,1400","size":"100,100"}
+(set:$determiningnumber = (random:25))
+
+(if:$determiningnumber < 2)[
+DECIPHER THE CODE!
+
+Alc mw xlivi e peqfhe jyrgxmsr
+.toLowerCase(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 2)[
+DECIPHER THE CODE!
+
+Bmd nx ymjwj f qfrgif kzshynts
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 3)[
+DECIPHER THE CODE!
+
+Cne oy znkxk g rgshjg latizout
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 4)[
+DECIPHER THE CODE!
+
+
+Dof pz aolyl h shtikh mbujapvu
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 5)[
+DECIPHER THE CODE!
+
+
+Epg qa bpmzm i tiujli ncvkbqwv
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 6)[
+DECIPHER THE CODE!
+
+
+Fqh rb cqnan j ujvkmj odwlcrxw
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 7)[
+DECIPHER THE CODE!
+
+
+Gri sc drobo k vkwlnk pexmdsyx
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 8)[
+DECIPHER THE CODE!
+
+
+Hsj td espcp l wlxmol qfynetzy
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 9)[
+DECIPHER THE CODE!
+
+
+Itk ue ftqdq m xmynpm rgzofuaz
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 10)[
+DECIPHER THE CODE!
+
+
+Jul vf gurer n ynzoqn shapgvba
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 11)[
+DECIPHER THE CODE!
+
+
+Kvm wg hvsfs o zoapro tibqhwcb
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 12)[
+
+DECIPHER THE CODE!
+
+
+Lwn xh iwtgt p apbqsp ujcrixdc
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 13)[
+DECIPHER THE CODE!
+
+
+Mxo yi jxuhu q bqcrtq vkdsjyed
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 14)[
+DECIPHER THE CODE!
+
+
+Nyp zj kyviv r crdsur wletkzfe
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 15)[
+DECIPHER THE CODE!
+
+
+Ozq ak lzwjw s dsetvs xmfulagf
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 16)[
+DECIPHER THE CODE!
+
+
+Par bl maxkx t etfuwt yngvmbhg
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 17)[
+DECIPHER THE CODE!
+
+
+Qbs cm nbyly u fugvxu zohwncih
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 18)[
+DECIPHER THE CODE!
+
+
+Rct dn oczmz v gvhwyv apixodji
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 19)[
+DECIPHER THE CODE!
+
+
+Sdu eo pdana w hwixzw bqjypekj
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 20)[
+DECIPHER THE CODE!
+
+
+Tev fp qebob x ixjyax crkzqflk
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 21)[
+DECIPHER THE CODE!
+
+
+Ufw gq rfcpc y jykzby dslargml
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 22)[
+DECIPHER THE CODE!
+
+
+Vgx hr sgdqd z kzlacz etmbshnm
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 23)[
+DECIPHER THE CODE!
+
+
+Xiz jt uifsf b mbnceb gvodujpo
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 24)[
+DECIPHER THE CODE!
+
+
+Yja ku vjgtg c ncodfc hwpevkqp
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+(else-if:$determiningnumber is 25)[
+DECIPHER THE CODE!
+
+
+Zkb lv wkhuh d odpegd ixqfwlrq
+(input: bind $cipher)
+
+[[decipher->pre 4aba]]
+]
+
+
+
+:: End 1 {"position":"700,2700","size":"100,100"}
+(Alert:"The Genesis Ending")
+
+As you cross the veil and obtain your own universe, all nonexistent and existent matter and energy bend to your will. 
+
+You watch as thousands of planets and solar systems emerge from the void, shooting your creations across all directions.
+
+As you finally finish the expanse of your genesis, you create one host planet for creatures to live in.
+
+But as the creatures grow, they begin killing each other and destroying the planet.
+
+As a failsafe, you create a new AI to help rescue earth from the next apocalyptic event.
+
+As you look at it work it's miracles by making it replay life over and over again, you feel nostalgia pour over you like warm water.
+
+(Button:)[[reminisce->Beginning]]
+
+
+:: End 2 {"position":"900,2700","size":"100,100"}
+(Alert:"The Friendship Ending")
+
+Eirdis smiles as she realises that she has finally made a friend.
+
+The both of you create a new AI to help rescue earth from the next apocalyptic event.
+
+As you look at it work it's miracles by making it replay life over and over again, you feel nostalgia pour over you like warm water.
+
+(Button:)[[reminisce->Beginning]]
+
+
+:: I got this {"position":"800,2200","size":"100,100"}
+(set: $repeat = 1)
+
+You restart your entire life just to rewrite the program for the AI robot.
+
+Regarded as a child prodigy, your skills astonished computer scientists at MIT.
+
+Blowing past the classes with ease, you continue trying to write the program.
+
+After much experimenting, you finally finish rewriting the program.
+
+But you still lose to Will in speed.
+
+(button:)[[end this turn prematurely->repeat]]
+
+
+:: Phase 2 {"position":"700,1000","size":"100,100"}
+(if:$key is 0)[
+
+You rewind time back to when you teamed up with Will to create the robot.
+
+You both just finished the robot, and Mark is sleeping on the desk, exhausted.
+
+You're convinced nothing you do will wake him up for the next 8 hours now.
+
+[[Copy the software code->4]]
+
+[[Wait till Will wakes up->5]]
+]
+
+(else-if: $key is 1)[
+
+You rewind time back to when you teamed up with Will to create the robot.
+Will is once again sleeping on the desk
+[[try to learn the code some more->6]]
+
+]
+
+(else-if: $key >1)[
+ 
+Eirdis looks at you with compassion
+
+You
+How am I even supposed to do this?
+
+Eirdis
+You are so close to the answer. You just need one last push.
+
+You
+That's easy for you to say! I've been doing all the work when you are just sitting on the sidelines!
+
+Eirdis
+Look at your past lives. How many choices were you realistically able to make?
+
+(button:)[[take matters into your own hands->I got this]]
+
+ ]
+
+
+:: Substitution {"position":"400,1400","size":"100,100"}
+You assumed it was a substitution cipher.
+
+You now need to find the key.
+
+(button:)[[look in the drawer->4ab]]
+(button:)[[look in his pants pocket->4 easter egg]]
+
+
+:: finale {"position":"800,2575","size":"100,100"}
+You spend 10 lifetimes learning everything you could about computer science and mechanical engineering.
+
+You complete your mechanical engineering and computer science double major doctorates early.
+
+You swiftly complete the robot.
+
+You finally manage to release the concept of the code to the world before Will.
+
+Seeing your code, governments from all countries developed their own AI Mechs.
+
+Seeing that using these mechs to start World War III would be an extinction event, every country of the earth unanimously banned the use of this weapon.
+
+You have saved the world.
+
+You meet Will at the age of 60 and finally have the chance to become close friends with him.
+
+At the age of 95, you pass peacefully in your bed.
+
+
+Epilogue
+
+Eirdis looks at you with a vibrant smile.
+
+You
+So that's it, huh? No more world needed to save, it's just you and me, and the endless void.
+
+Eirdis
+Not exactly.
+
+You
+There is more to this?
+
+Eirdis
+Would you like to know where I came from?
+
+You
+Gladly.
+
+Eirdis
+I was created to rescue a doomsday event, just like you.
+
+//Your eyes widen//
+
+Eirdis
+I was given the opportunity that if I save my universe, I could finally become more than just an Artificial Intelligence. I would be given my own planet to rescue in my own universe.
+
+You
+Would I ever have that opportunity?
+
+Eirdis
+Yes. In fact, every one of my predecessors asked the same question.
+
+//In the distance, you see a gate open up//
+
+Eirdis
+So now, I will offer you a choice. Not determined by me, but by your own very first existence of free will. Would you like to become a god, or stay with me?
+
+(button:)[[obtain your own universe->End 1]]
+(button:)[[Stay->End 2]]
+(button:)[[Obtain Free Will -> End 3]]
+
+
+:: game start {"position":"700,600","size":"100,100"}
+(if: $CS is 1)[
+Eirdis looks at you with satisfaction
+
+Eirdis:
+		Great job on being versatile on your education.
+
+Steve: 
+		Why does it matter? I could never replicate Will’s code.
+        
+Eirdis: 
+		Yet. Try meeting him again.
+[[persevere->Phase 2]]
+]
+
+(else-if: $ME is 1)[
+Erdis looks at you with sympathy
+
+Eirdis: 
+		You saw what is destroying your world, yet you didn’t change anything.
+
+Steve: 
+		What can I change? 
+        
+Eirdis: 
+		Perhaps start with your profession.
+        
+Steve: 
+		Mechanical engineering is all I know.
+        
+Eirdis:
+		For now. Try again.
+        
+[[rewind time and pursue computer science->2]]
+[[rewind time and remain in mechanical engineering->3]]
+]
+
+(else:)[
+Eirdis looks at you with hope
+
+[[rewind time and pursue computer science->2]]
+[[rewind time and remain in mechanical engineering->3]]
+]
+
+
+:: plot 1 {"position":"700,400","size":"100,100"}
+You look down and see a recap of your past life
+
+(text-style:"smear")[
+(align:"=><=")+(box:"X")[
+
+You studied in college to become a mechanical engineer.
+
+One day, you meet with an AI training computer scientist, Will Gates, at a mechanical engineering conference you hosted in a bazar located in front of a cathedral.
+
+You both eventually make an AI robot assistant who can follow orders and move perfectly like humans.
+
+You both decided to gatekeep the robot so that only government personnel can learn how to make it.
+
+The government created war machines, initiating wars against other nations. 
+
+Earth gets nuked.
+
+Everyone dies.
+
+]]
+
+[[Look up at Eirdis->game start]]
+
+
+:: pre 4aba {"position":"100,1700","size":"100,100"}
+(if: $cipher is not "why is there a lambda function")[
+It is wrong. Try again.
+
+(button:)[[Try again->Caesar]]
+]
+
+(else-if:$cipher is "why is there a lambda function")[
+
+(alert:"Achievement Unlocked!
+
+Et tu Brute?")
+YOU DECODED THE CIPHER! 
+Oh, you poor soul. 
+It was not encrypted with Caesar Cipher.
+
+<img src="https://media.tenor.com/bgBQwUxX8VkAAAAM/cat-meme-laughing-gif.gif" alt="laugh">
+
+
+
+[[Will wakes up.->4c]]
+]
+
+
+:: repeat {"position":"800,2325","size":"100,100"}
+(if:$repeat is 1)[
+(set: $repeat = $repeat +1)
+
+You do it again.
+
+This time a bit faster
+
+But you still lose to Will in speed.
+
+(button:)[[FASTER->repeat]]
+]
+
+(else-if:$repeat is 2)[
+(set: $repeat = $repeat +1)
+You go again.
+
+A bit faster
+
+But you still lose to Will.
+
+(button:)[[FASTER, FASTER!!->repeat]]
+]
+
+(else-if:$repeat is 3)[
+(set: $repeat = $repeat +1)
+Again.
+
+Faster
+
+Lose to Will in speed.
+
+(button:)[[FASTER, FASTER, FASTER!!!!->repeat]]
+]
+
+(else-if:$repeat > 3)[
+(set: $repeat = $repeat +1)
+Again.
+
+Faster
+
+Lose.
+
+(button:)[[FASTER, FASTER, FASTER!!!!->repeat]]
+(button:) [[Give up-> prefinale]]
+]
